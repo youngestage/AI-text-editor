@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Text Processor</title>
+    <!-- Load Chrome AI API scripts with defer to ensure proper loading order -->
+    <script defer src="https://ai.googleapis.com/chrome/js/language-detector.js"></script>
+    <script defer src="https://ai.googleapis.com/chrome/js/text-summarizer.js"></script>
+    <script defer src="https://ai.googleapis.com/chrome/js/translator.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
